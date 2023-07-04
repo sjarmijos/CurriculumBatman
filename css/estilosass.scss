@@ -1,0 +1,61 @@
+$color1:#E6E6E6;
+$color2:#C4C4C4;
+$color3:#005677;
+
+
+body{
+    margin: 0;
+}
+header{
+    padding-bottom: 70px;
+}
+
+.imgLogo{
+    text-align: center;
+    background-color: $color1;
+    height: 170px;
+    padding: 5px;
+}
+
+.titulo-principal{
+    text-align: center;
+    background-color: $color2;
+    color: $color3;
+    letter-spacing: 5px;
+    padding-left: 10px;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.fecha{
+    font-style: normal;
+}
+
+dd{
+    padding-left: 40px;
+}
+
+dl{
+    padding-left: 25px;
+}
+.infoRedes{
+    display: inline;
+    font-style: normal;
+}
+.redesInfo{
+    background-color: $color3;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    .imgFooter{
+        padding-left: 15px;
+    }
+}
