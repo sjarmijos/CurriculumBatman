@@ -23,6 +23,20 @@ header{
     color: $color3;
     letter-spacing: 5px;
     padding-left: 10px;
+    font-size: 20px;
+    min-height: 3em;
+    
+    h1{
+        margin-top: 0px;
+    }
+    
+}
+
+.subtitulos{
+    background-color: $color2;
+    color: $color3;
+    letter-spacing: 5px;
+    padding-left: 10px;
 }
 
 span{
